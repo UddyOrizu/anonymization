@@ -2,10 +2,13 @@ fastapi==0.115.12
 fastcoref==2.1.6
 uvicorn==0.34.2
 spacy==3.8.7
+numpy>=1.24.0
 en_core_web_lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl
 python-docx==1.1.2
 python-multipart==0.0.20
 pytest==8.3.5
-httpx==0.28.1
+httpx==0.25.2
 presidio_analyzer==2.2.358
 presidio_anonymizer==2.2.358
+ollama==0.1.6
+litellm>=1.30.0
